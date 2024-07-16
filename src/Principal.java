@@ -1,6 +1,6 @@
 package com.java.juli.main;
 
-import com.java.juli.biblioteca.misslibros.Libro;
+import com.java.juli.biblioteca.mislibros.Libro;
 
 public class Principal{
 
@@ -18,7 +18,10 @@ public class Principal{
 		libro.setPuntaje_Favorites(7);
 		libro.setDescripcion("Tiene lo que sea");
 
-		System.out.println("El nombre del libro es: " + libro.getNombre()\n + " El libro tiene puntaje de: "+ libro.getPuntaje_Favorites()\n + " El interes de leer el libro es de: " + libro.getPuntaje_Interes()\n + " La descripción del libro es: " + libro.getDescripcion());
+		System.out.println("El nombre del libro es: " + libro.getNombre() + 
+		"\nEl libro tiene puntaje de: "+ libro.getPuntaje_Favorites() + 
+		"\nEl interes de leer el libro es de: " + libro.getPuntaje_Interes() + 
+		"\nLa descripción del libro es: " + libro.getDescripcion());
 	
 	}
 }
